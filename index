@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .menu{
+    float:right;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+}
+header{
+    display: block;
+    margin-bottom: 10px;
+}
+.logo{
+    float:left;
+}
+.menu a{
+    margin-right: 30px;  
+}
+*{
+    text-decoration: none;
+    color:black;
+    font-family: Montserrat;
+}
+main{
+    background-image: url(image\ 31.png);
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 506px;
+    left: 10px;
+    top: 157px;
+}
+.master{
+    margin-top: 50px;
+    color:white;
+    position: absolute;
+    width: 643px;
+    height: 184px;
+    left: 456px;
+    top: 150px;
+    font-style: italic;
+    line-height: 44px;
+    margin-bottom: 0px;
+}
+.blue{
+    width: 50%;
+    height: 329px;
+    top: 659px;
+    background-color: #176A86;
+    float:right;
+}
+.why{
+    float:left;
+    margin-right:0px;
+    width:50%;
+}
+section{
+   display: block;
+   position: absolute;
+   margin-top:650px;
+   background-color: white;
+}
+.cards{
+    float:left;
+    display: block;
+    margin-top:860px;
+
+}
+.garantie,.develop,.Chestnost{
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    background: #176A86;
+    padding: 50px;
+    margin: 40px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    border-radius: 10px;
+}
+.forms{
+    float: left;
+    display: block;
+    margin-top:70px;
+    background: linear-gradient(234.42deg, #FF2800 32.21%, #8F1E09 90.24%);
+    width:100%;
+    line-height: 44px;
+}
+footer{
+    float: left;
+    display: block;
+    background-color: #131313;
+    width:100%;
+}
+h2{
+    color:white;
+}
+.call{
+    background: linear-gradient(127.23deg, #42A4C6 -69.89%, #176D8B 115.75%);
+    border-radius: 10px;
+    height: 25px;
+    border-color: rgb(59, 62, 253);
+    width:100px;
+}
+input{
+    border-radius: 10px;
+    width: 634px;
+    height: 30px;
+    left: 74px;
+    border:none;
+    font-style: italic;
+}
+footer a{
+    line-height: 30px;
+    color:white;
+    margin-left:50px;
+}
+.x{
+    float:right;
+    display:block;
+    position: relative;
+}
+.x p{
+    color:white;
+}
+.xx{
+    float:left;
+    display: inline;
+}
+.xxx{
+    margin-left:50px;
+    font-style: italic;
+}
+.red{
+    background: linear-gradient(236.98deg, #FF2800 5.95%, #AF1B00 150.27%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: absolute;
+    width: 355px;
+    height: 35px;
+    text-align: center;
+    color: white;
+    float: center;
+}
+.text{
+    text-align: center;
+    font-size: 22px;
+}
+label{
+    color:white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src='image 21.png' alt='logo' class='logo'>
+        <div class='menu'>
+            <a href=''>Каталог</a>
+            <a href=''>Доставка и оплата</a>
+            <a href=''>Новости и акции</a>
+            <a href=''>Услуги и сервис</a>
+            <a href=''>Контакты</a>
+        </div>
+    </header>
+    <main>
+        <h2 class='master'>Интернет-магазин зимней<br> техники "Мастер-техно"</h2>
+    </main>
+    <section>
+        <img src='image 32.png' alt='car' class='why'>
+        <div class='blue'>
+        <h2>Почему именно мы?</h2>
+        <p class='text'>текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст </p>
+        <a href='' class='red'>К покупкам</a>
+        </div>
+    </section>
+    <div class='cards'>
+        <h1>Наши принципы</h1>
+        <div class='garantie'>
+            <img src='image 33.png' alt='garantie'>
+            <h3>Гарантия качества</h3>
+            <h4>Мы тщательно следим за качеством продаваемой продукции</h4>
+        </div>
+        <div class='Chestnost'>
+            <img src='image 36.png' alt='chestnist'>
+            <h3>Честность</h3>
+            <h4>Мы всегда готовы диалогу с покупателями, обратная связь очень важна для нас</h4>
+        </div>
+        <div class='develop'>
+            <img src='image 35.png' alt='develop'>
+            <h3>Развитие</h3>
+            <h4>Мы не стоим на месте: наши менеджеры всегда в курсе современных тенденций и новинок в мире техники</h4>
+        </div>
+    </div>
+    <div class='forms'>
+        <div class='xxx'>
+        <h2>Остались вопросы?</h2>
+        <h2>Оставьте заявку, и мы вам перезвоним</h2>
+        <form>
+            <label>Как вас зовут?</label><br>
+            <input placeholder="Ваше имя"><br>
+            <label>Ваш номер телефона</label><br>
+            <input placeholder="8-9__-___-__-__"><br>
+            <a href='' class='call'>Перезвоните мне!</a>
+        </form>
+        </div>
+    </div>
+    <footer>
+        <div class='xx'>
+       <a href=''>Каталог</a> <br>
+       <a href=''>Доставка и оплата</a>  <br>
+       <a href=''>Новости и акции</a>  <br>
+       <a href=''>Услуги и сервис</a>  <br>
+       <a href=''>Контакты</a> <br>
+        </div>
+       <div class='x'>
+           <p>Связаться с нами<br>
+           +7(800)550-14-89<br>
+           +7(495)227-66-96<br>
+           <img src='image 39.png' alt='socialmedia'><br>
+           @Все права защищены</p>
+       </div>
+    </footer>
+</body>
+</html>
